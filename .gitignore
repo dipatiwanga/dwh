@@ -1,0 +1,41 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+
+# Dagster / Orchestration
+dagster_home/
+storage/
+*.log
+
+# dbt
+dbt_modules/
+dbt_packages/
+target/
+logs/
+
+# Airbyte
+airbyte_local/
+
+# Data / Temp
+data/
+tmp/
+*.parquet
+*.csv
+
+# JetBrains / VSCode
+.idea/
+.vscode/
+*.swp
